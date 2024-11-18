@@ -7,3 +7,4 @@ else:
         fact *= a
         a -= 1
     print(fact)
+#fact
