@@ -4,7 +4,9 @@ th = 0.00000000001
 if(num < 0):
     print("invalid number")
 elif(num == 0):
-    print("0")
+    print(0)
+elif(num < 1):
+    print(1)
 elif(num > 1):
     n1 = num
     while(abs(n1 * n1 - num) > th):
